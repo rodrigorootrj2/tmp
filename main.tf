@@ -8,7 +8,7 @@ resource "aes_instance" "dev" {
     instance_type = "t2.micro"
     key_name = "terraform"
     tags = {
-        Name = "dev${count.index}"
+        Name = "dev"
     }
 }
 
