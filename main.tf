@@ -1,6 +1,6 @@
 provider "aws" {    
-    region = "us-eas-1"    
-    #source = ["registry.terraform.io/hashicorp/aes"]
+    region = "us-eas-1"
+    source = ["registry.terraform.io/hashicorp/aes","registry.terraform.io/hashicorp/aws"]
 }
 resource "aes_instance" "dev" {
     count = 3
