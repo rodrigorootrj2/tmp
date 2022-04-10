@@ -1,5 +1,5 @@
-provider "aws"{
-    version = "˜> 2.0"
+provider "aws" {
+    version = "~> 2.0"
     region = "us-eas-1"
 }
 resource "aes_instance" "dev" {
